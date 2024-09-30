@@ -23,6 +23,7 @@ body {
     }
     &__hamburger-menu-container {
       &__hamburger-menu {
+        //TODO: hamburger menu icon
       }
     }
   }
@@ -51,6 +52,7 @@ body {
       color: #ffffff;
       background-color: #08a6e4;
       filter: drop-shadow(5px 10px 14px rgba(7, 172, 230, 0.29));
+      text-wrap: nowrap;
     }
 
     &__header-image-container {
@@ -63,7 +65,7 @@ body {
   }
 }
 
-.statistics{
+.statistics-container{
     &__title{
         text-align: center;
         font-family: Raleway, sans-serif;
@@ -71,6 +73,33 @@ body {
         font-weight: 300;
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    &__statistics{
+        
+        &__ellipse{
+            margin-left: 45vw;
+        }
+        &__icon{
+            position: relative;
+            left: -36px;
+            top: -8px;
+        }
+        &__amount{
+            text-align: center;
+            font-family: Raleway, sans-serif;
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: 0.5rem;
+        }
+        &__topic{
+            text-align: center;
+            font-family: Raleway, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+            color: #A5A5A5;
+        }
     }
 }
 @media only source and (min-width: 1200px) {
