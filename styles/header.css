@@ -30,10 +30,21 @@ body {
 .header__jumbotron__header-title {
   font-family: Raleway, sans-serif;
   font-weight: 400;
+  font-size: 2.18rem;
 }
 .header__jumbotron__header-subtitle {
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .header__jumbotron___header-btn--open-your-shop {
+  padding: 6% 25%;
+  border-radius: 40px;
   border: none;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #08a6e4;
+  filter: drop-shadow(5px 10px 14px rgba(7, 172, 230, 0.29));
 }/*# sourceMappingURL=header.css.map */
