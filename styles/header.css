@@ -54,4 +54,13 @@ body {
 }
 .header__jumbotron__header-image-container__header-image {
   width: 100%;
+}
+
+.statistics__title {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-left: 20%;
+  margin-right: 20%;
 }/*# sourceMappingURL=header.css.map */

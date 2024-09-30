@@ -63,5 +63,15 @@ body {
   }
 }
 
+.statistics{
+    &__title{
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
 @media only source and (min-width: 1200px) {
 }
