@@ -1,1 +1,14 @@
 @import url("styles/header.css");
+@import url("styles/statistics.css");
+@import url("styles/footer.css");
+
+body {
+  min-width: 320px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
