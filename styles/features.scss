@@ -1,0 +1,113 @@
+.features-container {
+  background-color: #f7f7f7;
+  padding-top: 10%;
+  padding-inline: 5vw;
+  
+  &__card {
+    text-align: center;
+    display: inline-block;
+    min-width: 360px;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 5px;
+    &__be-always-first {
+      &__image {
+        position: relative;
+        left: -50px;
+        right: 0;
+        margin-top: 10%;
+      }
+      &__red-ellipse {
+        position: relative;
+        left: 160px;
+        top: -40px;
+      }
+      &__title {
+        margin: 0;
+        text-align: start;
+        font-family: Raleway, sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        padding-left: 0.5em;
+        padding-right: 1em;
+      }
+      &__content-text {
+        text-align: start;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1rem;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5em;
+      }
+    }
+
+    &__your-shop {
+      &__image {
+        position: relative;
+        left: -40px;
+        right: 0;
+        margin-top: 10%;
+      }
+      &__blue-ellipse {
+        position: relative;
+        left: 90px;
+        top: -10px;
+      }
+      &__title {
+        margin: 0;
+        text-align: start;
+        font-family: Raleway, sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        padding-left: 0.5em;
+        padding-right: 1em;
+      }
+      &__content-text {
+        text-align: start;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1rem;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5em;
+      }
+    }
+
+    &__increase-recognition {
+      &__title {
+        margin-top: 10%;
+        text-align: start;
+        font-family: Raleway, sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        padding-left: 0.5em;
+        padding-right: 1em;
+      }
+      &__content-text {
+        text-align: start;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 1rem;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5em;
+      }
+      &__green-background {
+        width: 100%;
+        background-color: #55DFB4;
+        border-radius: 5px;
+      }
+      &__image {
+        position: relative;
+        top: 30px;
+      }
+    }
+  }
+}
