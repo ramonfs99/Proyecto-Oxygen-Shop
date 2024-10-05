@@ -1,1 +1,198 @@
-/*# sourceMappingURL=pricing.css.map */
+.pricing-container__title {
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 42.25px;
+  text-align: center;
+}
+.pricing-container__basic :hover {
+  box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.pricing-container__basic__text-content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-inline: 8%;
+  border: 1px solid #fb3b64;
+  border-radius: 18px;
+}
+.pricing-container__basic__text-content__left-div {
+  display: block;
+  padding-top: 3rem;
+}
+.pricing-container__basic__text-content__left-div__title {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #13253b;
+}
+.pricing-container__basic__text-content__left-div__price {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.875rem;
+  font-weight: 300;
+  line-height: 4rem;
+  color: #fb3b64;
+  margin: 0 auto;
+}
+.pricing-container__basic__text-content__services-list {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  size: 0.875rem;
+  line-height: 50px;
+  text-align: center;
+  list-style-image: url("/images/Checkbox.png");
+}
+.pricing-container__basic__text-content__services-list--cross {
+  list-style-image: url("/images/Cross.png");
+}
+.pricing-container__basic__begin-button {
+  position: relative;
+  top: -25px;
+  margin-inline: 30%;
+  padding: 1rem 4rem;
+  border-radius: 23px;
+  background-color: #eb476e;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: white;
+}
+.pricing-container__professional :hover {
+  box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.pricing-container__professional__text-content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-inline: 8%;
+  border: 1px solid #07ace6;
+  border-radius: 18px;
+}
+.pricing-container__professional__text-content__left-div {
+  display: block;
+  padding-top: 3rem;
+}
+.pricing-container__professional__text-content__left-div__title {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #13253b;
+}
+.pricing-container__professional__text-content__left-div__price {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.875rem;
+  font-weight: 300;
+  line-height: 4rem;
+  color: #07ace6;
+  margin: 0 auto;
+}
+.pricing-container__professional__text-content__left-div__offer {
+  font-family: Raleway, sans-serif;
+  size: 0.75rem;
+  font-weight: 700;
+  line-height: 14.09px;
+  color: #13253b;
+}
+.pricing-container__professional__text-content__services-list {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  size: 0.875rem;
+  line-height: 50px;
+  text-align: center;
+  list-style-image: url("/images/Checkbox.png");
+}
+.pricing-container__professional__text-content__services-list--cross {
+  list-style-image: url("/images/Cross.png");
+}
+.pricing-container__professional__begin-button {
+  position: relative;
+  top: -25px;
+  margin-inline: 30%;
+  padding: 1rem 4rem;
+  border-radius: 23px;
+  background-color: #07ace6;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: white;
+}
+.pricing-container__premium :hover {
+  box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.pricing-container__premium__text-content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-inline: 8%;
+  border: 1px solid #55DFB4;
+  border-radius: 18px;
+}
+.pricing-container__premium__text-content__left-div {
+  display: block;
+  padding-top: 3rem;
+}
+.pricing-container__premium__text-content__left-div__title {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #13253b;
+}
+.pricing-container__premium__text-content__left-div__price {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.875rem;
+  font-weight: 300;
+  line-height: 4rem;
+  color: #55DFB4;
+  margin: 0 auto;
+}
+.pricing-container__premium__text-content__left-div__offer {
+  font-family: Raleway, sans-serif;
+  size: 0.75rem;
+  font-weight: 700;
+  line-height: 14.09px;
+  color: #13253b;
+}
+.pricing-container__premium__text-content__services-list {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  size: 0.875rem;
+  line-height: 50px;
+  text-align: center;
+  list-style-image: url("/images/Checkbox.png");
+}
+.pricing-container__premium__text-content__services-list--cross {
+  list-style-image: url("/images/Cross.png");
+}
+.pricing-container__premium__begin-button {
+  position: relative;
+  top: -25px;
+  margin-inline: 30%;
+  padding: 1rem 4rem;
+  border-radius: 23px;
+  background-color: #55DFB4;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: white;
+}/*# sourceMappingURL=pricing.css.map */
