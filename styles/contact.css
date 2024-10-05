@@ -1,3 +1,6 @@
+.contact-container {
+  padding-inline: 10%;
+}
 .contact-container__title {
   font-family: Raleway, sans-serif;
   font-size: 2.5rem;
@@ -14,5 +17,39 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: #A5A5A5;
+  color: #a5a5a5;
+}
+.contact-container__form__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 14.98px;
+  letter-spacing: 3.28px;
+  color: #08a6e4;
+}
+.contact-container__form__label--disclaimer {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 16.34px;
+  letter-spacing: 0;
+  color: #707070;
+}
+.contact-container__form__label__text-input {
+  margin-top: 8%;
+  border-width: 0 0 1px 0;
+  border-color: #95989a;
+  width: 100%;
+  margin-bottom: 10%;
+}
+.contact-container__form__send-button {
+  margin-top: 10%;
+  margin-left: 40%;
+  padding: 1.2rem 6rem;
+  border-radius: 35px;
+  border: none;
+  background-color: #08a6e4;
+  color: white;
+  box-shadow: 5px 10px 14px rgba(8, 166, 228, 0.29);
 }/*# sourceMappingURL=contact.css.map */
