@@ -13,7 +13,7 @@
 }
 .features-container__card--be-always-first__image {
   position: relative;
-  left: -50px;
+  right: 50px;
   right: 0;
   margin-top: 10%;
 }
@@ -21,7 +21,7 @@
   visibility: visible;
   position: relative;
   left: 160px;
-  top: -40px;
+  bottom: 40px;
 }
 .features-container__card--be-always-first__red-rectangle--desktop {
   visibility: hidden;
@@ -49,14 +49,14 @@
 }
 .features-container__card--your-shop__image {
   position: relative;
-  left: -40px;
+  right: 40px;
   right: 0;
   margin-top: 10%;
 }
 .features-container__card--your-shop__blue-ellipse {
   position: relative;
   left: 90px;
-  top: -10px;
+  bottom: 10px;
 }
 .features-container__card--your-shop__title {
   margin: 0;
@@ -142,11 +142,11 @@
     width: 11.25rem;
     position: relative;
     left: 940px;
-    top: -30px;
+    bottom: 30px;
   }
   .features-container__card--be-always-first__title {
     position: relative;
-    top: -14rem;
+    bottom: 14rem;
     left: 1rem;
     text-align: start;
     font-family: Raleway, sans-serif;
@@ -158,7 +158,7 @@
   .features-container__card--be-always-first__content-text {
     text-wrap: wrap;
     position: relative;
-    top: -14rem;
+    bottom: 14rem;
     left: 1rem;
     text-align: start;
     width: 30rem;
@@ -186,7 +186,7 @@
     width: 20rem;
     position: relative;
     right: 200px;
-    top: -30px;
+    bottom: 30px;
   }
   .features-container__card--your-shop__title {
     position: relative;
