@@ -13,23 +13,72 @@
   text-align: center;
   display: block;
 }
-.statistics-container__statistics__ellipse {
+.statistics-container__statistics--entries__ellipse {
   position: absolute;
   margin-left: 25%;
   left: 0;
   right: 0;
 }
-.statistics-container__statistics__icon {
+.statistics-container__statistics--entries__icon {
   position: relative;
   left: 1.5rem;
+  top: 0.2rem;
 }
-.statistics-container__statistics__amount {
+.statistics-container__statistics--entries__amount {
   font-family: Raleway, sans-serif;
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: 0.5rem;
 }
-.statistics-container__statistics__topic {
+.statistics-container__statistics--entries__topic {
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #a5a5a5;
+}
+.statistics-container__statistics--products__ellipse {
+  position: absolute;
+  margin-left: 25%;
+  left: 0;
+  right: 0;
+}
+.statistics-container__statistics--products__icon {
+  position: relative;
+  left: 1.5rem;
+  top: 0.8rem;
+}
+.statistics-container__statistics--products__amount {
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+.statistics-container__statistics--products__topic {
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #a5a5a5;
+}
+.statistics-container__statistics--posts__ellipse {
+  position: absolute;
+  margin-left: 25%;
+  left: 0;
+  right: 0;
+}
+.statistics-container__statistics--posts__icon {
+  position: relative;
+  left: 1.5rem;
+  top: 0.5rem;
+}
+.statistics-container__statistics--posts__amount {
+  font-family: Raleway, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+.statistics-container__statistics--posts__topic {
   font-family: Raleway, sans-serif;
   font-size: 1rem;
   font-weight: 400;

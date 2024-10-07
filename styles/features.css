@@ -11,18 +11,23 @@
   background-color: white;
   border-radius: 5px;
 }
-.features-container__card__be-always-first__image {
+.features-container__card--be-always-first__image {
   position: relative;
   left: -50px;
   right: 0;
   margin-top: 10%;
 }
-.features-container__card__be-always-first__red-ellipse {
+.features-container__card--be-always-first__red-rectangle--mobile {
+  visibility: visible;
   position: relative;
   left: 160px;
   top: -40px;
 }
-.features-container__card__be-always-first__title {
+.features-container__card--be-always-first__red-rectangle--desktop {
+  visibility: hidden;
+  width: 0;
+}
+.features-container__card--be-always-first__title {
   margin: 0;
   text-align: start;
   font-family: Raleway, sans-serif;
@@ -31,7 +36,7 @@
   padding-left: 0.5em;
   padding-right: 1em;
 }
-.features-container__card__be-always-first__content-text {
+.features-container__card--be-always-first__content-text {
   text-align: start;
   width: 80%;
   margin-top: 10%;
@@ -42,18 +47,18 @@
   font-weight: 400;
   line-height: 1.5em;
 }
-.features-container__card__your-shop__image {
+.features-container__card--your-shop__image {
   position: relative;
   left: -40px;
   right: 0;
   margin-top: 10%;
 }
-.features-container__card__your-shop__blue-ellipse {
+.features-container__card--your-shop__blue-ellipse {
   position: relative;
   left: 90px;
   top: -10px;
 }
-.features-container__card__your-shop__title {
+.features-container__card--your-shop__title {
   margin: 0;
   text-align: start;
   font-family: Raleway, sans-serif;
@@ -62,7 +67,7 @@
   padding-left: 0.5em;
   padding-right: 1em;
 }
-.features-container__card__your-shop__content-text {
+.features-container__card--your-shop__content-text {
   text-align: start;
   width: 80%;
   margin-top: 10%;
@@ -73,7 +78,7 @@
   font-weight: 400;
   line-height: 1.5em;
 }
-.features-container__card__increase-recognition__title {
+.features-container__card--increase-recognition__title {
   margin-top: 10%;
   text-align: start;
   font-family: Raleway, sans-serif;
@@ -82,7 +87,7 @@
   padding-left: 0.5em;
   padding-right: 1em;
 }
-.features-container__card__increase-recognition__content-text {
+.features-container__card--increase-recognition__content-text {
   text-align: start;
   width: 80%;
   margin-top: 10%;
@@ -93,12 +98,12 @@
   font-weight: 400;
   line-height: 1.5em;
 }
-.features-container__card__increase-recognition__green-background {
+.features-container__card--increase-recognition__green-background {
   width: 100%;
   background-color: #55dfb4;
   border-radius: 5px;
 }
-.features-container__card__increase-recognition__image {
+.features-container__card--increase-recognition__image {
   position: relative;
   top: 30px;
 }
