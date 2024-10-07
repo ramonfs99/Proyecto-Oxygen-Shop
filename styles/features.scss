@@ -10,17 +10,24 @@
     margin-bottom: 10%;
     background-color: white;
     border-radius: 5px;
-    &__be-always-first {
+    &--be-always-first {
       &__image {
         position: relative;
         left: -50px;
         right: 0;
         margin-top: 10%;
       }
-      &__red-ellipse {
-        position: relative;
-        left: 160px;
-        top: -40px;
+      &__red-rectangle {
+        &--mobile{
+          visibility: visible;
+          position: relative;
+          left: 160px;
+          top: -40px;
+        }
+        &--desktop{
+          visibility: hidden;
+          width: 0;
+        }
       }
       &__title {
         margin: 0;
@@ -44,7 +51,7 @@
       }
     }
 
-    &__your-shop {
+    &--your-shop {
       &__image {
         position: relative;
         left: -40px;
@@ -78,7 +85,7 @@
       }
     }
 
-    &__increase-recognition {
+    &--increase-recognition {
       &__title {
         margin-top: 10%;
         text-align: start;

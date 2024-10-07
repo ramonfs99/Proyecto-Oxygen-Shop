@@ -14,29 +14,83 @@
     margin: 0 auto;
     text-align: center;
     display: block;
-
-    &__ellipse {
-      position: absolute;
-      margin-left: 25%;
-      left: 0;
-      right: 0;
+    &--entries{
+      &__ellipse {
+        position: absolute;
+        margin-left: 25%;
+        left: 0;
+        right: 0;
+      }
+      &__icon {
+        position: relative;
+        left: 1.5rem;
+        top: 0.2rem;
+      }
+      &__amount {
+        font-family: Raleway, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+      }
+      &__topic {
+        font-family: Raleway, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #a5a5a5;
+      }
     }
-    &__icon {
-      position: relative;
-      left: 1.5rem;
+    &--products{
+      &__ellipse {
+        position: absolute;
+        margin-left: 25%;
+        left: 0;
+        right: 0;
+      }
+      &__icon {
+        position: relative;
+        left: 1.5rem;
+        top: 0.8rem;
+      }
+      &__amount {
+        font-family: Raleway, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+      }
+      &__topic {
+        font-family: Raleway, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #a5a5a5;
+      }
     }
-    &__amount {
-      font-family: Raleway, sans-serif;
-      font-size: 1.25rem;
-      font-weight: 800;
-      letter-spacing: 0.5rem;
-    }
-    &__topic {
-      font-family: Raleway, sans-serif;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.2rem;
-      color: #a5a5a5;
+    &--posts{
+      &__ellipse {
+        position: absolute;
+        margin-left: 25%;
+        left: 0;
+        right: 0;
+      }
+      &__icon {
+        position: relative;
+        left: 1.5rem;
+        top: 0.5rem;
+      }
+      &__amount {
+        font-family: Raleway, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.5rem;
+      }
+      &__topic {
+        font-family: Raleway, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        color: #a5a5a5;
+      }
     }
   }
 }
