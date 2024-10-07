@@ -211,3 +211,239 @@
     }
   }
 }
+
+@media only screen and (min-width: 1000px){
+  .pricing-container {
+    width: 100%;
+    display: inline-block;
+    &__title {
+      font-family: Raleway, sans-serif;
+      font-size: 2.25rem;
+      font-weight: 400;
+      line-height: 42px;
+      text-align: center;
+    }
+    &__basic {
+      margin-left: 14%;
+      display: inline-block;
+      text-align: center;
+      .pricing-container__basic:hover {
+        box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
+        transform: scale(1.1);
+        transition: 1s;
+      }
+      &__text-content {
+        width: 23.25rem;
+        height: 28.8125rem;
+        display: block;
+        &__left-div {
+          padding-top: 3rem;
+          &__title {
+            display: block;
+            text-align: center;
+            font-family: Raleway, sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.5rem;
+            color: #13253b;
+          }
+          &__price {
+            margin: auto;
+            font-family: "Open Sans", sans-serif;
+            font-size: 2.875rem;
+            font-weight: 300;
+            line-height: 4rem;
+            color: #fb3b64;
+            margin: 0 auto;
+          }
+        }
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-inline: 8%;
+        border: 1px solid #fb3b64;
+        border-radius: 18px;
+
+        &__services-list {
+          justify-items: center;
+          display: block;
+          text-align: center;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          size: 0.875rem;
+          line-height: 50px;
+          list-style-image: url("/images/Checkbox.png");
+          
+          &--cross {
+            list-style-image: url("/images/Cross.png");
+          }
+        }
+      }
+      &__begin-button {
+        position: relative;
+        top: -25px;
+        margin-inline: 30%;
+        padding: 1rem 4rem;
+        border-radius: 23px;
+        background-color: #eb476e;
+        border: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 700;
+        color: white;
+      }
+    }
+    
+    &__professional {
+      display: inline-block;
+      margin-left: 5%;
+      text-align: center;
+      :hover{
+        box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
+        transform: scale(1.1);
+        transition: 1s;
+      }
+      &__text-content {
+        width: 23.25rem;
+        height: 28.8125rem;
+        display: block;
+        &__left-div {
+          display: block;
+          padding-top: 3rem;
+          &__title {
+            display: block;
+            text-align: center;
+            font-family: Raleway, sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.5rem;
+            color: #13253b;
+          }
+          &__price {
+            margin: auto;
+            font-family: "Open Sans", sans-serif;
+            font-size: 2.875rem;
+            font-weight: 300;
+            line-height: 4rem;
+            color: #07ace6;
+            margin: 0 auto;
+          }
+          &__offer {
+            font-family: Raleway, sans-serif;
+            size: 0.75rem;
+            font-weight: 700;
+            line-height: 14.09px;
+            color: #13253b;
+          }
+        }
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-inline: 8%;
+        border: 1px solid #07ace6;
+        border-radius: 18px;
+        
+        &__services-list {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          size: 0.875rem;
+          line-height: 50px;
+          text-align: center;
+          list-style-image: url("/images/Checkbox.png");
+          
+          &--cross {
+            list-style-image: url("/images/Cross.png");
+          }
+        }
+      }
+      
+      &__begin-button {
+        position: relative;
+        top: -25px;
+        margin-inline: 30%;
+        padding: 1rem 4rem;
+        border-radius: 23px;
+        background-color: #07ace6;
+        border: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 700;
+        color: white;
+      }
+    }
+    &__premium {
+      display: inline-block;
+      margin-left: 5%;
+      text-align: center;
+      :hover{
+        box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
+        transform: scale(1.1);
+        transition: 1s;
+      }
+      &__text-content {
+        width: 23.25rem;
+        height: 28.8125rem;
+        display: block;
+        justify-content: space-around;
+        &__left-div {
+          display: block;
+          padding-top: 3rem;
+          &__title {
+            display: block;
+            text-align: center;
+            font-family: Raleway, sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.5rem;
+            color: #13253b;
+          }
+          &__price {
+            margin: auto;
+            font-family: "Open Sans", sans-serif;
+            font-size: 2.875rem;
+            font-weight: 300;
+            line-height: 4rem;
+            color: #55DFB4;
+            margin: 0 auto;
+          }
+          &__offer {
+            font-family: Raleway, sans-serif;
+            size: 0.75rem;
+            font-weight: 700;
+            line-height: 14.09px;
+            color: #13253b;
+          }
+        }
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-inline: 8%;
+        border: 1px solid #55DFB4;
+        border-radius: 18px;
+  
+        &__services-list {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          size: 0.875rem;
+          line-height: 50px;
+          text-align: center;
+          list-style-image: url("/images/Checkbox.png");
+  
+          &--cross {
+            list-style-image: url("/images/Cross.png");
+          }
+        }
+      }
+      &__begin-button {
+        position: relative;
+        top: -25px;
+        margin-inline: 30%;
+        padding: 1rem 4rem;
+        border-radius: 23px;
+        background-color: #55DFB4;
+        border: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: 700;
+        color: white;
+      }
+    }
+  }
+}
