@@ -17,10 +17,10 @@
         <nav class="header__nav">
             <p class="header__nav__logo">OXYGEN Shop</p>
             <ul class="header__nav__element-list">
-                <li><a href="">Why us</a></li>
-                <li><a href="">Benefits</a></li>
-                <li><a href="">Prices</a></li>
-                <li><a href="">Contact</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Why us</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Benefits</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Prices</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Contact</a></li>
             </ul>
             <div class="header__nav__hamburger-menu-container">
                 <a href="header__nav__hamburger-menu-container__hamburger-menu">
@@ -28,34 +28,37 @@
                 </a>
             </div>
         </nav>
-        <section class="header__jumbotron">
+        <div class="header__jumbotron">
             <h1 class="header__jumbotron__title">Sell More!</h1>
             <h3 class="header__jumbotron__subtitle">Open shop on our platform and increase your sales</h3>
             <button class="header__jumbotron___btn--open-your-shop">Open your shop</button>
-        </section>
-        <section class="header__jumbotron__image-container">
-            <img class="header__jumbotron__image-container__image" src="images/Background 1.png" alt="laptop">
-        </section>
+        </div>
+        <div class="header__jumbotron__image-container header__jumbotron__image-container--mobile">
+            <img class="header__jumbotron__image-container--mobile__image" src="images/Background 1.png" alt="laptop">
+        </div>
+        <div class="header__jumbotron__image-container header__jumbotron__image-container--desktop">
+            <img class="header__jumbotron__image-container--desktop__image" src="images/Background.png" alt="laptop">
+        </div>
     </header>
     <section class="statistics-container">
         <h2 class="statistics-container__title">The most popular sales platform in the country</h2>
-        <article class="statistics-container__statistics">
-            <img class="statistics-container__statistics__ellipse" src="images/Ellipse-red.png" alt="">
-            <img class="statistics-container__statistics__icon" src="images/Person.png" alt="">
-            <h4 class="statistics-container__statistics__amount">100000+</h4>
-            <p class="statistics-container__statistics__topic">daily entries</p>
+        <article class="statistics-container__statistics statistics-container__statistics--entries">
+            <img class="statistics-container__statistics--entries__ellipse" src="images/Ellipse-red.png" alt="">
+            <img class="statistics-container__statistics--entries__icon" src="images/Person.png" alt="">
+            <h4 class="statistics-container__statistics--entries__amount">100000+</h4>
+            <p class="statistics-container__statistics--entries__topic">daily entries</p>
         </article>
-        <article class="statistics-container__statistics">
-            <img class="statistics-container__statistics__ellipse" src="images/Ellipse-blue.png" alt="">
-            <img class="statistics-container__statistics__icon" src="images/Eye.png" alt="">
-            <h4 class="statistics-container__statistics__amount">2000000+</h4>
-            <p class="statistics-container__statistics__topic">seen products every day</p>
+        <article class="statistics-container__statistics statistics-container__statistics--products">
+            <img class="statistics-container__statistics--products__ellipse" src="images/Ellipse-blue.png" alt="">
+            <img class="statistics-container__statistics--products__icon" src="images/Eye.png" alt="">
+            <h4 class="statistics-container__statistics--products__amount">2000000+</h4>
+            <p class="statistics-container__statistics--products__topic">seen products every day</p>
         </article>
-        <article class="statistics-container__statistics">
-            <img class="statistics-container__statistics__ellipse" src="images/Ellipse-green.png" alt="">
-            <img class="statistics-container__statistics__icon" src="images/Catalog.png" alt="">
-            <h4 class="statistics-container__statistics__amount">10000+</h4>
-            <p class="statistics-container__statistics__topic">added posts daily</p>
+        <article class="statistics-container__statistics statistics-container__statistics--posts">
+            <img class="statistics-container__statistics--posts__ellipse" src="images/Ellipse-green.png" alt="">
+            <img class="statistics-container__statistics--posts__icon" src="images/Catalog.png" alt="">
+            <h4 class="statistics-container__statistics--posts__amount">10000+</h4>
+            <p class="statistics-container__statistics--posts__topic">added posts daily</p>
         </article>
     </section>
     </section>

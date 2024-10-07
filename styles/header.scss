@@ -14,7 +14,7 @@
       color: #08a6e4;
     }
     &__element-list {
-      display: none;
+      visibility: hidden;
       list-style: none;
     }
     &__hamburger-menu-container {
@@ -52,14 +52,122 @@
     }
 
     &__image-container {
-      margin-top: 20%;
-      &__image {
-        width: 100%;
+      &--mobile{
+        visibility: visible;
+        margin-top: 20%;
+        &__image {
+          width: 100%;
+        }
+        width: 100vw;
       }
-      width: 100vw;
+      &--desktop{
+        height: 0;
+        visibility: hidden;
+      }
     }
   }
 }
 
-@media only source and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
+  .header {
+    &__nav {
+      width: 100vw;
+      height: 4.375rem;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+      &__logo {
+        margin-left: 8.5rem;
+        margin-top: 1.0625rem;
+        font-family: Raleway, sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 37px;
+        color: #08a6e4;
+      }
+      &__element-list {
+        visibility: visible;
+        list-style: none;
+        position: absolute;
+        right: 0;
+        top: 0.75rem;
+        margin-right: 3rem;
+        &__list-item{
+          padding-inline: 3rem;
+          font-family: 'Open Sans', sans-serif;
+          font-size: .6875rem;
+          font-weight: 700;
+          line-height: 15px;
+          letter-spacing: .205rem;
+          text-align: center;
+          display: inline;
+          text-transform: uppercase;
+          a{
+            padding-bottom: 1.35rem;
+            text-decoration: none;
+          }
+        }
+        a:hover{
+          border-bottom: 4px solid #08a6e4;
+        }
+      }
+      &__hamburger-menu-container {
+        &__hamburger-menu {
+          visibility: hidden;
+        }
+      }
+    }
+  
+    &__jumbotron {
+      margin-top: 10rem;
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      &__title {
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+        font-size: 3.0625rem;
+        line-height: 3.5625rem;
+        text-align: center;
+      }
+      &__subtitle {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        text-align: center;
+      }
+      &___btn--open-your-shop {
+        margin-top: 1rem;
+        padding: 2rem 10vw;
+        border-radius: 40px;
+        border: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #08a6e4;
+        filter: drop-shadow(5px 10px 14px rgba(7, 172, 230, 0.29));
+        text-wrap: nowrap;
+      }
+  
+      &__image-container {
+        &--mobile{
+          height: 0;
+          visibility: hidden;
+          margin-top: 0;
+          &__image {
+            width: 100%;
+          }
+          width: 100vw;
+        }
+        &--desktop{
+          height: 100%;
+          visibility: visible;
+          &__image {
+            width: 100%;
+          }
+          width: 100vw;
+        }
+      }
+    }
+  }
 }
