@@ -17,6 +17,12 @@
   visibility: hidden;
   list-style: none;
 }
+.header__nav__hamburger-menu-container__hamburger-menu {
+  display: inline-block;
+  position: absolute;
+  top: 1.875rem;
+  right: 5%;
+}
 .header__jumbotron {
   text-align: center;
   margin-left: 5%;
