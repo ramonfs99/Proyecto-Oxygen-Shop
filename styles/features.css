@@ -13,7 +13,7 @@
 }
 .features-container__card--be-always-first__image {
   position: relative;
-  left: -50px;
+  right: 50px;
   right: 0;
   margin-top: 10%;
 }
@@ -21,7 +21,7 @@
   visibility: visible;
   position: relative;
   left: 160px;
-  top: -40px;
+  bottom: 40px;
 }
 .features-container__card--be-always-first__red-rectangle--desktop {
   visibility: hidden;
@@ -49,14 +49,14 @@
 }
 .features-container__card--your-shop__image {
   position: relative;
-  left: -40px;
+  right: 40px;
   right: 0;
   margin-top: 10%;
 }
 .features-container__card--your-shop__blue-ellipse {
   position: relative;
   left: 90px;
-  top: -10px;
+  bottom: 10px;
 }
 .features-container__card--your-shop__title {
   margin: 0;

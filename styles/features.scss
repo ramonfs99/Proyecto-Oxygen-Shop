@@ -13,7 +13,7 @@
     &--be-always-first {
       &__image {
         position: relative;
-        left: -50px;
+        right: 50px;
         right: 0;
         margin-top: 10%;
       }
@@ -22,7 +22,7 @@
           visibility: visible;
           position: relative;
           left: 160px;
-          top: -40px;
+          bottom: 40px;
         }
         &--desktop{
           visibility: hidden;
@@ -54,14 +54,14 @@
     &--your-shop {
       &__image {
         position: relative;
-        left: -40px;
+        right: 40px;
         right: 0;
         margin-top: 10%;
       }
       &__blue-ellipse {
         position: relative;
         left: 90px;
-        top: -10px;
+        bottom: 10px;
       }
       &__title {
         margin: 0;
