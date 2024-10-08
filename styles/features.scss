@@ -142,7 +142,6 @@
           &__image {
             position: absolute;
             right: 20%;
-            bottom: 0%;
             top: 100px;
             width: 380px;
           }
@@ -164,7 +163,7 @@
           position: relative;
           margin: 0 auto;
           padding: 0;
-          bottom: 20%;
+          bottom: 25%;
           font-family: Raleway, sans-serif;
           font-size: 2.25rem;
           font-weight: 400;
@@ -173,7 +172,7 @@
         &__content-text {
           text-wrap: wrap;
           position: relative;
-          bottom: 20%;
+          bottom: 30%;
           text-align: start;
           width: 40%;
           font-family: "Open Sans", sans-serif;
@@ -189,47 +188,56 @@
 
       &--your-shop {
         height: 23.125rem;
-        padding-top: 4%;
+        padding-left: 4%;
         text-wrap: nowrap;
-        padding-right: 10%;
-        &__image {
+        display: inline-block;
+
+        &__image-container{
+          width: fit-content;
           position: relative;
-          bottom: 0px;
-          width: 26.625rem;
-          right: 530px;
+          right: 30%;
+          display: inline-block;
+          &__image {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 380px;
+          }
+          &__blue-elipse {
+              width: 300px;
+              position: relative;
+              right: 10px;
+              top: 30px
+          }
         }
-        &__blue-ellipse {
-          width: 20rem;
-          position: relative;
-          right: 200px;
-          top: -30px;
-        }
+        
         &__title {
           position: relative;
-          bottom: 21rem;
-          left: 50rem;
+          left: 22%;
+          bottom: 65%;
+          margin: 0 auto;
+          padding: 0;
           text-wrap: wrap;
           width: 25%;
           text-align: start;
           font-family: Raleway, sans-serif;
           font-size: 2.25rem;
           font-weight: 400;
-          padding-left: 0.5em;
-          padding-right: 1em;
         }
         &__content-text {
           text-wrap: wrap;
           position: relative;
-          bottom: 21rem;
-          left: 50rem;
+          bottom: 90%;
+          left: 60%;
           text-align: start;
-          width: 30rem;
-          margin-left: 1rem;
+          width: 40%;
           font-family: "Open Sans", sans-serif;
           font-size: 1rem;
           font-weight: 400;
           line-height: 22px;
-          padding-bottom: 4rem;
+          padding-left: 0;
+          padding-bottom: 5%;
+          padding-right: 2%;
           border-bottom: 4px solid #08a6e4;
         }
       }
@@ -237,8 +245,9 @@
       &--increase-recognition {
         height: 23.125rem;
         padding-top: 4%;
-        padding-right: 10%;
+        
         width: 60%;
+        display: inline-block;
         &__title {
           width: 90%;
           position: relative;

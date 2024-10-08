@@ -19,7 +19,10 @@
     }
     &__hamburger-menu-container {
       &__hamburger-menu {
-        //TODO: hamburger menu icon
+        display: inline-block;
+        position: absolute;
+        top: 1.875rem;
+        right: 5%;
       }
     }
   }

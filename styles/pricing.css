@@ -53,7 +53,7 @@
 }
 .pricing-container__basic__begin-button {
   position: relative;
-  top: -25px;
+  bottom: 25px;
   margin-inline: 30%;
   padding: 1rem 4rem;
   border-radius: 23px;
@@ -119,7 +119,7 @@
 }
 .pricing-container__professional__begin-button {
   position: relative;
-  top: -25px;
+  bottom: 25px;
   margin-inline: 30%;
   padding: 1rem 4rem;
   border-radius: 23px;
@@ -185,7 +185,7 @@
 }
 .pricing-container__premium__begin-button {
   position: relative;
-  top: -25px;
+  bottom: 25px;
   margin-inline: 30%;
   padding: 1rem 4rem;
   border-radius: 23px;
@@ -265,7 +265,7 @@
   }
   .pricing-container__basic__begin-button {
     position: relative;
-    top: -25px;
+    bottom: 25px;
     margin-inline: 30%;
     padding: 1rem 4rem;
     border-radius: 23px;
@@ -338,7 +338,7 @@
   }
   .pricing-container__professional__begin-button {
     position: relative;
-    top: -25px;
+    bottom: 25px;
     margin-inline: 30%;
     padding: 1rem 4rem;
     border-radius: 23px;
@@ -412,7 +412,7 @@
   }
   .pricing-container__premium__begin-button {
     position: relative;
-    top: -25px;
+    bottom: 25px;
     margin-inline: 30%;
     padding: 1rem 4rem;
     border-radius: 23px;
