@@ -123,7 +123,7 @@
   .features-container {
     background-color: #f7f7f7;
     padding-top: 10rem;
-    padding-inline: 16rem;
+    padding-inline: 15%;
     &__card {
       min-width: 360px;
       background-color: white;
@@ -131,54 +131,59 @@
       width: 100%;
       &--be-always-first {
         height: 23.125rem;
-        padding-top: 4%;
         text-wrap: nowrap;
-        padding-right: 10%;
-        &__image {
+        padding-left: 4%;
+        display: inline-block;
+        &__image-container{
+          width: fit-content;
           position: relative;
-          left: 150px;
-          top: 60px;
-          width: 24.125rem;
-          margin-left: 24rem;
-        }
-        &__red-rectangle {
-          &--mobile {
-            visibility: hidden;
-            width: 0;
+          left: 30%;
+          display: inline-block;
+          &__image {
+            position: absolute;
+            right: 20%;
+            bottom: 0%;
+            top: 100px;
+            width: 380px;
           }
-          &--desktop {
-            visibility: visible;
-            width: 11.25rem;
-            position: relative;
-            left: 940px;
-            top: -30px;
+          &__red-rectangle {
+            &--mobile {
+              visibility: hidden;
+              width: 0;
+            }
+            &--desktop {
+              visibility: visible;
+              width: 180px;
+              position: relative;
+              right: 10px;
+              top: 30px
+            }
           }
         }
         &__title {
           position: relative;
-          top: -14rem;
-          left: 1rem;
-          text-align: start;
+          margin: 0 auto;
+          padding: 0;
+          bottom: 20%;
           font-family: Raleway, sans-serif;
           font-size: 2.25rem;
           font-weight: 400;
-          padding-left: 0.5em;
-          padding-right: 1em;
+          
         }
         &__content-text {
           text-wrap: wrap;
           position: relative;
-          top: -14rem;
-          left: 1rem;
+          bottom: 20%;
           text-align: start;
-          width: 30rem;
-          margin-left: 1rem;
+          width: 40%;
           font-family: "Open Sans", sans-serif;
           font-size: 1rem;
           font-weight: 400;
           line-height: 22px;
-          padding-bottom: 4rem;
           border-bottom: 4px solid #fb3b64;
+          margin-top: 5%;
+          padding-left: 0;
+          padding-bottom: 5%;
         }
       }
 
