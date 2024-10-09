@@ -41,10 +41,10 @@
   size: 0.875rem;
   line-height: 50px;
   text-align: center;
-  list-style-image: url("images/Checkbox.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
 }
 .pricing-container__basic__text-content__services-list--cross {
-  list-style-image: url("images/Cross.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
 }
 .pricing-container__basic__begin-button {
   position: relative;
@@ -107,10 +107,10 @@
   size: 0.875rem;
   line-height: 50px;
   text-align: center;
-  list-style-image: url("images/Checkbox.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
 }
 .pricing-container__professional__text-content__services-list--cross {
-  list-style-image: url("images/Cross.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
 }
 .pricing-container__professional__begin-button {
   position: relative;
@@ -173,10 +173,10 @@
   size: 0.875rem;
   line-height: 50px;
   text-align: center;
-  list-style-image: url("images/Checkbox.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
 }
 .pricing-container__premium__text-content__services-list--cross {
-  list-style-image: url("images/Cross.png");
+  list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
 }
 .pricing-container__premium__begin-button {
   position: relative;
@@ -250,10 +250,10 @@
     font-weight: 400;
     size: 0.875rem;
     line-height: 50px;
-    list-style-image: url("images/Checkbox.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
   }
   .pricing-container__basic__text-content__services-list--cross {
-    list-style-image: url("images/Cross.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
   }
   .pricing-container__basic__begin-button {
     position: relative;
@@ -330,10 +330,10 @@
     size: 0.875rem;
     line-height: 50px;
     text-align: center;
-    list-style-image: url("images/Checkbox.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
   }
   .pricing-container__professional__text-content__services-list--cross {
-    list-style-image: url("images/Cross.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
   }
   .pricing-container__professional__begin-button {
     position: relative;
@@ -414,10 +414,10 @@
     size: 0.875rem;
     line-height: 50px;
     text-align: center;
-    list-style-image: url("images/Checkbox.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Checkbox.png");
   }
   .pricing-container__premium__text-content__services-list--cross {
-    list-style-image: url("images/Cross.png");
+    list-style-image: url("Proyecto-Oxygen-Shop/images/Cross.png");
   }
   .pricing-container__premium__begin-button {
     position: relative;
