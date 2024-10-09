@@ -7,8 +7,10 @@
       font-size: 2.5rem;
       font-weight: 400;
       line-height: 46.96px;
+      margin-bottom: 0;
     }
     &__subtitle {
+      margin-top: 0;
       font-family: "Open Sans";
       font-size: 1rem;
       font-weight: 400;
@@ -21,23 +23,30 @@
       color: #a5a5a5;
       margin-top: 10%;
       margin-bottom: 10%;
-      &--email {
-        display: block;
-        a {
-          text-decoration: none;
-          color: inherit;
-          display: list-item;
-          list-style-image: url("../images/Email.png");
-        }
-      }
+      padding: 0;
+      &--email,
       &--phone {
         display: block;
+        line-height: 22px;
+        padding-left: 30px;
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        background-position: left center;
+
         a {
           text-decoration: none;
           color: inherit;
-          display: list-item;
-          list-style-image: url("../images/Phone.png");
+          display: block;
         }
+      }
+
+      &--email {
+        background-image: url("../images/Email.png");
+        margin-bottom: 4%;
+      }
+
+      &--phone {
+        background-image: url("../images/Phone.png");
       }
     }
   }
@@ -103,6 +112,7 @@
         font-size: 3.0625rem;
         font-weight: 400;
         line-height: 46.96px;
+        margin-bottom: 5%;
       }
       &__subtitle {
         font-family: "Open Sans";
@@ -133,7 +143,7 @@
         }
 
         &--email {
-          background-image: url("../images/Email.png"); // Use background image instead of list-style-image
+          background-image: url("../images/Email.png");
         }
 
         &--phone {

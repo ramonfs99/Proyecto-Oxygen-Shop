@@ -7,8 +7,10 @@
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 46.96px;
+  margin-bottom: 0;
 }
 .contact-container__info__subtitle {
+  margin-top: 0;
   font-family: "Open Sans";
   font-size: 1rem;
   font-weight: 400;
@@ -21,24 +23,27 @@
   color: #a5a5a5;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding: 0;
+}
+.contact-container__info__details--email, .contact-container__info__details--phone {
+  display: block;
+  line-height: 22px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: left center;
+}
+.contact-container__info__details--email a, .contact-container__info__details--phone a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 .contact-container__info__details--email {
-  display: block;
-}
-.contact-container__info__details--email a {
-  text-decoration: none;
-  color: inherit;
-  display: list-item;
-  list-style-image: url("../images/Email.png");
+  background-image: url("../images/Email.png");
+  margin-bottom: 4%;
 }
 .contact-container__info__details--phone {
-  display: block;
-}
-.contact-container__info__details--phone a {
-  text-decoration: none;
-  color: inherit;
-  display: list-item;
-  list-style-image: url("../images/Phone.png");
+  background-image: url("../images/Phone.png");
 }
 .contact-container__form__label {
   font-family: "Open Sans", sans-serif;
@@ -91,6 +96,7 @@
     font-size: 3.0625rem;
     font-weight: 400;
     line-height: 46.96px;
+    margin-bottom: 5%;
   }
   .contact-container__info__subtitle {
     font-family: "Open Sans";

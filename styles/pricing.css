@@ -13,11 +13,11 @@
 .pricing-container__basic__text-content {
   display: flex;
   justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-inline: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
   border: 1px solid #fb3b64;
   border-radius: 18px;
+  text-wrap: nowrap;
 }
 .pricing-container__basic__text-content__left-div {
   display: block;
@@ -72,9 +72,8 @@
 .pricing-container__professional__text-content {
   display: flex;
   justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-inline: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
   border: 1px solid #07ace6;
   border-radius: 18px;
 }
@@ -138,9 +137,8 @@
 .pricing-container__premium__text-content {
   display: flex;
   justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-inline: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
   border: 1px solid #55dfb4;
   border-radius: 18px;
 }
@@ -273,6 +271,11 @@
     font-size: 0.8125rem;
     font-weight: 700;
     color: white;
+  }
+  .pricing-container__basic__begin-button:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
   }
   .pricing-container__professional {
     display: inline-block;
