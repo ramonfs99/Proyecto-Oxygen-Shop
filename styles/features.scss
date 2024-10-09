@@ -12,23 +12,24 @@
     border-radius: 5px;
     &--be-always-first {
       height: 30rem;
-      &__image-container{
+      &__image-container {
         position: relative;
         display: block;
         text-align: center;
         &__image {
           position: relative;
+          width: 200px;
           right: 45px;
           margin-top: 10%;
         }
         &__red-rectangle {
-          &--mobile{
+          &--mobile {
             visibility: visible;
             position: relative;
             left: 160px;
             bottom: 40px;
           }
-          &--desktop{
+          &--desktop {
             visibility: hidden;
             width: 0;
           }
@@ -62,11 +63,12 @@
 
     &--your-shop {
       height: 30rem;
-      &__image-container{
+      &__image-container {
         position: relative;
         display: block;
         text-align: center;
         &__image {
+          width: 180px;
           position: relative;
           right: 60px;
           margin-top: 10%;
@@ -101,25 +103,27 @@
 
     &--increase-recognition {
       text-align: center;
-      &__title {
-        margin-top: 10%;
-        text-align: start;
-        font-family: Raleway, sans-serif;
-        font-size: 2em;
-        font-weight: 400;
-        padding-left: 0.5em;
-        padding-right: 1em;
-      }
-      &__content-text {
-        text-align: start;
-        width: 80%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        padding-left: 1rem;
-        font-family: "Open Sans", sans-serif;
-        font-size: 0.875rem;
-        font-weight: 400;
-        line-height: 1.5em;
+      &__text-container {
+        &__title {
+          margin-top: 10%;
+          text-align: start;
+          font-family: Raleway, sans-serif;
+          font-size: 2em;
+          font-weight: 400;
+          padding-left: 0.5em;
+          padding-right: 1em;
+        }
+        &__content-text {
+          text-align: start;
+          width: 80%;
+          margin-top: 10%;
+          margin-bottom: 10%;
+          padding-left: 1rem;
+          font-family: "Open Sans", sans-serif;
+          font-size: 0.875rem;
+          font-weight: 400;
+          line-height: 1.5em;
+        }
       }
       &__green-background {
         width: 100%;
@@ -140,7 +144,7 @@
     padding-top: 10rem;
     padding-inline: 15%;
     &__card {
-      display:block;
+      display: block;
       min-width: 360px;
       background-color: white;
       border-radius: 5px;
@@ -150,7 +154,7 @@
         text-wrap: nowrap;
         padding-left: 4%;
         display: inline-block;
-        &__image-container{
+        &__image-container {
           position: relative;
           left: 70%;
           width: fit-content;
@@ -170,11 +174,11 @@
               width: 180px;
               position: relative;
               right: 10px;
-              top: 30px
+              top: 30px;
             }
           }
         }
-        
+
         &__title {
           position: relative;
           margin: 0 auto;
@@ -184,7 +188,6 @@
           font-family: Raleway, sans-serif;
           font-size: 2.25rem;
           font-weight: 400;
-          
         }
         &__content-text {
           text-wrap: wrap;
@@ -210,7 +213,7 @@
         text-wrap: nowrap;
         display: inline-block;
 
-        &__image-container{
+        &__image-container {
           width: fit-content;
           position: relative;
           right: 30%;
@@ -218,18 +221,18 @@
           &__image {
             position: absolute;
             top: 25px;
-            right: 10px;
+            left: -50px;
             width: 380px;
           }
           &__blue-ellipse {
-              width: 300px;
-              position: relative;
-              left: auto;
-              right: 100px;
-              top: 30px
+            width: 300px;
+            position: relative;
+            right: 50px;
+            left: auto;
+            top: 30px;
           }
         }
-        
+
         &__title {
           position: relative;
           left: 22%;
@@ -263,46 +266,54 @@
 
       &--increase-recognition {
         height: 23.125rem;
-        padding-top: 4%;
-        width: 60%;
+        width: 100%;
         display: inline-block;
-        align-items: center;
-        &__title {
-          width: 65%;
-          position: relative;
-          left: 4%;
-          bottom: 20%;
-          text-align: start;
-          font-family: Raleway, sans-serif;
-          font-size: 2.25rem;
-          font-weight: 400;
-        }
-        &__content-text {
+        position: relative;
+        right: 10px;
+        background-color: transparent;
+        &__text-container {
+          background-color: white;
+          display: inline-block;
           width: 60%;
-          position: relative;
-          left: 4%;
-          bottom: 30%;
-          text-align: start;
-          font-family: "Open Sans", sans-serif;
-          font-size: 1rem;
-          font-weight: 400;
-          line-height: 22px;
-          border-bottom: 4px solid #55dfb4;
-          padding-bottom: 5%;
+          height: 100%;
+          vertical-align: top;
+          &__title {
+            text-align: start;
+            font-family: Raleway, sans-serif;
+            font-size: 2.25rem;
+            font-weight: 400;
+            width: 80%;
+          }
+          &__content-text {
+            width: 80%;
+            text-align: start;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 22px;
+            border-bottom: 4px solid #55dfb4;
+            padding-bottom: 5%;
+          }
         }
         &__green-background {
-          margin-left: 7.25rem;
-          position: relative;
-          left: 100%;
-          bottom: 52vh;
-          width: 50%;
-          height:23.125rem;
+          display: inline-block;
+          width: 35%;
+          height: 100%;
+          vertical-align: middle;
           background-color: #55dfb4;
           border-radius: 5px;
+          position: relative;
+          top: 0px;
+          left: 24px;
+          margin-left: 24px;
         }
         &__image {
+          display: block;
+          margin: 0 auto;
           position: relative;
           top: 90px;
+          max-width: 100%;
+          height: auto;
         }
       }
     }

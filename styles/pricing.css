@@ -5,6 +5,11 @@
   line-height: 42.25px;
   text-align: center;
 }
+.pricing-container__basic :hover, .pricing-container__basic__begin-button:hover {
+  box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
+  transform: scale(1.1);
+  transition: 1s;
+}
 .pricing-container__basic__text-content {
   display: flex;
   justify-content: space-around;
@@ -59,7 +64,7 @@
   font-weight: 700;
   color: white;
 }
-.pricing-container__professional :hover {
+.pricing-container__professional :hover, .pricing-container__professional__begin-button:hover {
   box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
   transform: scale(1.1);
   transition: 1s;
@@ -125,7 +130,7 @@
   font-weight: 700;
   color: white;
 }
-.pricing-container__premium :hover {
+.pricing-container__premium :hover, .pricing-container__premium__begin-button:hover {
   box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
   transform: scale(1.1);
   transition: 1s;
@@ -209,7 +214,7 @@
   }
   :hover > .pricing-container__basic__begin-button {
     box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(25px);
     transition: 1s;
   }
   .pricing-container__basic__text-content {
@@ -269,11 +274,6 @@
     font-weight: 700;
     color: white;
   }
-  .pricing-container__basic__begin-button:hover {
-    box-shadow: none;
-    transform: none;
-    transition: none;
-  }
   .pricing-container__professional {
     display: inline-block;
     margin-left: 5%;
@@ -281,7 +281,7 @@
   }
   :hover > .pricing-container__professional__begin-button {
     box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(25px);
     transition: 1s;
   }
   .pricing-container__professional__text-content {
@@ -349,11 +349,6 @@
     color: white;
   }
   .pricing-container__professional__begin-button:hover {
-    box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  .pricing-container__professional__begin-button:hover {
     box-shadow: none;
     transform: none;
     transition: none;
@@ -365,7 +360,7 @@
   }
   :hover > .pricing-container__premium__begin-button {
     box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(25px);
     transition: 1s;
   }
   .pricing-container__premium__text-content {
