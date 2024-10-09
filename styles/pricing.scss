@@ -7,11 +7,6 @@
     text-align: center;
   }
   &__basic {
-      :hover{
-          box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
-          transform: scale(1.1);
-          transition: 1s;
-        }
     &__text-content {
       display: flex;
       justify-content: space-around;
@@ -57,7 +52,7 @@
     &__begin-button {
       position: relative;
       bottom: 25px;
-      margin-inline: 30%;
+      left: 33%;
       padding: 1rem 4rem;
       border-radius: 23px;
       background-color: #eb476e;
@@ -70,11 +65,11 @@
   }
 
   &__professional {
-    :hover{
-        box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
-        transform: scale(1.1);
-        transition: 1s;
-      }
+    :hover {
+      box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
+      transform: scale(1.1);
+      transition: 1s;
+    }
     &__text-content {
       display: flex;
       justify-content: space-around;
@@ -129,7 +124,7 @@
     &__begin-button {
       position: relative;
       bottom: 25px;
-      margin-inline: 30%;
+      left: 33%;
       padding: 1rem 4rem;
       border-radius: 23px;
       background-color: #07ace6;
@@ -141,11 +136,11 @@
     }
   }
   &__premium {
-    :hover{
-        box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
-        transform: scale(1.1);
-        transition: 1s;
-      }
+    :hover {
+      box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
+      transform: scale(1.1);
+      transition: 1s;
+    }
     &__text-content {
       display: flex;
       justify-content: space-around;
@@ -166,7 +161,7 @@
           font-size: 2.875rem;
           font-weight: 300;
           line-height: 4rem;
-          color: #55DFB4;
+          color: #55dfb4;
           margin: 0 auto;
         }
         &__offer {
@@ -180,7 +175,7 @@
       margin-left: 10%;
       margin-right: 10%;
       padding-inline: 8%;
-      border: 1px solid #55DFB4;
+      border: 1px solid #55dfb4;
       border-radius: 18px;
 
       &__services-list {
@@ -199,10 +194,10 @@
     &__begin-button {
       position: relative;
       bottom: 25px;
-      margin-inline: 30%;
+      left: 33%;
       padding: 1rem 4rem;
       border-radius: 23px;
-      background-color: #55DFB4;
+      background-color: #55dfb4;
       border: none;
       font-family: "Open Sans", sans-serif;
       font-size: 0.8125rem;
@@ -212,7 +207,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) {
   .pricing-container {
     width: 100%;
     display: inline-block;
@@ -225,13 +220,13 @@
     }
     &__basic {
       display: inline-block;
-      :hover > &__begin-button{
+      :hover > &__begin-button {
         box-shadow: 5px 10px 27px rgba(251, 59, 100, 0.29);
         transform: scale(1.1);
         transition: 1s;
       }
       &__text-content {
-        :hover{
+        :hover {
           box-shadow: none;
           transform: none;
         }
@@ -260,7 +255,7 @@
         }
         border: 1px solid #fb3b64;
         border-radius: 18px;
-        
+
         &__services-list {
           display: block;
           text-align: center;
@@ -269,7 +264,7 @@
           size: 0.875rem;
           line-height: 50px;
           list-style-image: url("/images/Checkbox.png");
-          
+
           &--cross {
             list-style-image: url("/images/Cross.png");
           }
@@ -289,24 +284,24 @@
         font-weight: 700;
         color: white;
       }
-      &__begin-button:hover{
+      &__begin-button:hover {
         box-shadow: none;
         transform: none;
         transition: none;
       }
     }
-    
+
     &__professional {
       display: inline-block;
       margin-left: 5%;
       text-align: center;
-      :hover > &__begin-button{
+      :hover > &__begin-button {
         box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
         transform: scale(1.1);
         transition: 1s;
       }
       &__text-content {
-        :hover{
+        :hover {
           box-shadow: none;
           transform: none;
         }
@@ -344,9 +339,7 @@
             color: #13253b;
           }
         }
-        
-        
-        
+
         &__services-list {
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
@@ -354,13 +347,13 @@
           line-height: 50px;
           text-align: center;
           list-style-image: url("/images/Checkbox.png");
-          
+
           &--cross {
             list-style-image: url("/images/Cross.png");
           }
         }
       }
-      
+
       &__begin-button {
         position: relative;
         bottom: 25px;
@@ -374,12 +367,12 @@
         font-weight: 700;
         color: white;
       }
-      &__begin-button:hover{
+      &__begin-button:hover {
         box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.29);
         transform: scale(1.1);
         transition: 1s;
       }
-      &__begin-button:hover{
+      &__begin-button:hover {
         box-shadow: none;
         transform: none;
         transition: none;
@@ -389,13 +382,13 @@
       display: inline-block;
       margin-left: 5%;
       text-align: center;
-      :hover > &__begin-button{
+      :hover > &__begin-button {
         box-shadow: 5px 10px 27px rgba(85, 223, 180, 0.29);
         transform: scale(1.1);
         transition: 1s;
       }
       &__text-content {
-        :hover{
+        :hover {
           box-shadow: none;
           transform: none;
         }
@@ -420,7 +413,7 @@
             font-size: 2.875rem;
             font-weight: 300;
             line-height: 4rem;
-            color: #55DFB4;
+            color: #55dfb4;
             margin: 0 auto;
           }
           &__offer {
@@ -431,9 +424,9 @@
             color: #13253b;
           }
         }
-        border: 1px solid #55DFB4;
+        border: 1px solid #55dfb4;
         border-radius: 18px;
-  
+
         &__services-list {
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
@@ -441,7 +434,7 @@
           line-height: 50px;
           text-align: center;
           list-style-image: url("/images/Checkbox.png");
-  
+
           &--cross {
             list-style-image: url("/images/Cross.png");
           }
@@ -453,14 +446,14 @@
         left: 30px;
         padding: 1rem 4rem;
         border-radius: 23px;
-        background-color: #55DFB4;
+        background-color: #55dfb4;
         border: none;
         font-family: "Open Sans", sans-serif;
         font-size: 0.8125rem;
         font-weight: 700;
         color: white;
       }
-      &__begin-button:hover{
+      &__begin-button:hover {
         box-shadow: none;
         transform: none;
         transition: none;

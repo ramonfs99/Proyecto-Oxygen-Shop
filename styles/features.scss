@@ -1,7 +1,7 @@
 .features-container {
   background-color: #f7f7f7;
   padding-top: 10%;
-  padding-inline: 5vw;
+  padding-inline: 8vw;
 
   &__card {
     text-align: center;
@@ -11,26 +11,33 @@
     background-color: white;
     border-radius: 5px;
     &--be-always-first {
-      &__image {
+      height: 30rem;
+      &__image-container{
         position: relative;
-        right: 50px;
-        right: 0;
-        margin-top: 10%;
-      }
-      &__red-rectangle {
-        &--mobile{
-          visibility: visible;
+        display: block;
+        text-align: center;
+        &__image {
           position: relative;
-          left: 160px;
-          bottom: 40px;
+          right: 45px;
+          margin-top: 10%;
         }
-        &--desktop{
-          visibility: hidden;
-          width: 0;
+        &__red-rectangle {
+          &--mobile{
+            visibility: visible;
+            position: relative;
+            left: 160px;
+            bottom: 40px;
+          }
+          &--desktop{
+            visibility: hidden;
+            width: 0;
+          }
         }
       }
       &__title {
-        margin: 0;
+        position: relative;
+        top: 20%;
+        margin: 0 auto;
         text-align: start;
         font-family: Raleway, sans-serif;
         font-size: 2em;
@@ -39,6 +46,8 @@
         padding-right: 1em;
       }
       &__content-text {
+        position: relative;
+        top: 20%;
         text-align: start;
         width: 80%;
         margin-top: 10%;
@@ -52,16 +61,21 @@
     }
 
     &--your-shop {
-      &__image {
+      height: 30rem;
+      &__image-container{
         position: relative;
-        right: 40px;
-        right: 0;
-        margin-top: 10%;
-      }
-      &__blue-ellipse {
-        position: relative;
-        left: 90px;
-        bottom: 10px;
+        display: block;
+        text-align: center;
+        &__image {
+          position: relative;
+          right: 60px;
+          margin-top: 10%;
+        }
+        &__blue-ellipse {
+          position: relative;
+          left: 80px;
+          bottom: 10px;
+        }
       }
       &__title {
         margin: 0;
@@ -86,6 +100,7 @@
     }
 
     &--increase-recognition {
+      text-align: center;
       &__title {
         margin-top: 10%;
         text-align: start;
@@ -125,6 +140,7 @@
     padding-top: 10rem;
     padding-inline: 15%;
     &__card {
+      display:block;
       min-width: 360px;
       background-color: white;
       border-radius: 5px;
@@ -135,10 +151,9 @@
         padding-left: 4%;
         display: inline-block;
         &__image-container{
-          width: fit-content;
           position: relative;
-          left: 30%;
-          display: inline-block;
+          left: 70%;
+          width: fit-content;
           &__image {
             position: absolute;
             right: 20%;
@@ -159,11 +174,13 @@
             }
           }
         }
+        
         &__title {
           position: relative;
           margin: 0 auto;
           padding: 0;
           bottom: 25%;
+          top: auto;
           font-family: Raleway, sans-serif;
           font-size: 2.25rem;
           font-weight: 400;
@@ -173,6 +190,7 @@
           text-wrap: wrap;
           position: relative;
           bottom: 30%;
+          top: auto;
           text-align: start;
           width: 40%;
           font-family: "Open Sans", sans-serif;
@@ -199,14 +217,15 @@
           display: inline-block;
           &__image {
             position: absolute;
-            top: 50px;
-            left: 0;
+            top: 25px;
+            right: 10px;
             width: 380px;
           }
-          &__blue-elipse {
+          &__blue-ellipse {
               width: 300px;
               position: relative;
-              right: 10px;
+              left: auto;
+              right: 100px;
               top: 30px
           }
         }

@@ -1,7 +1,7 @@
 .features-container {
   background-color: #f7f7f7;
   padding-top: 10%;
-  padding-inline: 5vw;
+  padding-inline: 8vw;
 }
 .features-container__card {
   text-align: center;
@@ -11,24 +11,33 @@
   background-color: white;
   border-radius: 5px;
 }
-.features-container__card--be-always-first__image {
+.features-container__card--be-always-first {
+  height: 30rem;
+}
+.features-container__card--be-always-first__image-container {
   position: relative;
-  right: 50px;
-  right: 0;
+  display: block;
+  text-align: center;
+}
+.features-container__card--be-always-first__image-container__image {
+  position: relative;
+  right: 45px;
   margin-top: 10%;
 }
-.features-container__card--be-always-first__red-rectangle--mobile {
+.features-container__card--be-always-first__image-container__red-rectangle--mobile {
   visibility: visible;
   position: relative;
   left: 160px;
   bottom: 40px;
 }
-.features-container__card--be-always-first__red-rectangle--desktop {
+.features-container__card--be-always-first__image-container__red-rectangle--desktop {
   visibility: hidden;
   width: 0;
 }
 .features-container__card--be-always-first__title {
-  margin: 0;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
   text-align: start;
   font-family: Raleway, sans-serif;
   font-size: 2em;
@@ -37,6 +46,8 @@
   padding-right: 1em;
 }
 .features-container__card--be-always-first__content-text {
+  position: relative;
+  top: 20%;
   text-align: start;
   width: 80%;
   margin-top: 10%;
@@ -47,15 +58,22 @@
   font-weight: 400;
   line-height: 1.5em;
 }
-.features-container__card--your-shop__image {
+.features-container__card--your-shop {
+  height: 30rem;
+}
+.features-container__card--your-shop__image-container {
   position: relative;
-  right: 40px;
-  right: 0;
+  display: block;
+  text-align: center;
+}
+.features-container__card--your-shop__image-container__image {
+  position: relative;
+  right: 60px;
   margin-top: 10%;
 }
-.features-container__card--your-shop__blue-ellipse {
+.features-container__card--your-shop__image-container__blue-ellipse {
   position: relative;
-  left: 90px;
+  left: 80px;
   bottom: 10px;
 }
 .features-container__card--your-shop__title {
@@ -77,6 +95,9 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5em;
+}
+.features-container__card--increase-recognition {
+  text-align: center;
 }
 .features-container__card--increase-recognition__title {
   margin-top: 10%;
@@ -115,6 +136,7 @@
     padding-inline: 15%;
   }
   .features-container__card {
+    display: block;
     min-width: 360px;
     background-color: white;
     border-radius: 5px;
@@ -127,11 +149,10 @@
     display: inline-block;
   }
   .features-container__card--be-always-first__image-container {
+    position: relative;
+    left: 70%;
     width: -moz-fit-content;
     width: fit-content;
-    position: relative;
-    left: 30%;
-    display: inline-block;
   }
   .features-container__card--be-always-first__image-container__image {
     position: absolute;
@@ -155,6 +176,7 @@
     margin: 0 auto;
     padding: 0;
     bottom: 25%;
+    top: auto;
     font-family: Raleway, sans-serif;
     font-size: 2.25rem;
     font-weight: 400;
@@ -163,6 +185,7 @@
     text-wrap: wrap;
     position: relative;
     bottom: 30%;
+    top: auto;
     text-align: start;
     width: 40%;
     font-family: "Open Sans", sans-serif;
@@ -189,14 +212,15 @@
   }
   .features-container__card--your-shop__image-container__image {
     position: absolute;
-    top: 50px;
-    left: 0;
+    top: 25px;
+    right: 10px;
     width: 380px;
   }
-  .features-container__card--your-shop__image-container__blue-elipse {
+  .features-container__card--your-shop__image-container__blue-ellipse {
     width: 300px;
     position: relative;
-    right: 10px;
+    left: auto;
+    right: 100px;
     top: 30px;
   }
   .features-container__card--your-shop__title {
