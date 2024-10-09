@@ -98,6 +98,7 @@
     text-transform: uppercase;
   }
   .header__nav__element-list__list-item a {
+    color: inherit;
     padding-bottom: 1.35rem;
     text-decoration: none;
   }
