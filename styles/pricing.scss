@@ -23,10 +23,8 @@
       border-radius: 18px;
       text-wrap: nowrap;
       &__left-div {
-        display: block;
         padding-top: 3rem;
         &__title {
-          display: flex;
           font-family: Raleway, sans-serif;
           font-size: 1.25rem;
           font-weight: 700;
@@ -34,7 +32,6 @@
           color: #13253b;
         }
         &__price {
-          margin: auto;
           font-family: "Open Sans", sans-serif;
           font-size: 2.875rem;
           font-weight: 300;
@@ -47,7 +44,7 @@
       &__services-list {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        size: 0.875rem;
+        font-size: 0.875rem;
         line-height: 50px;
         text-align: center;
         list-style-image: url("../images/Checkbox.png");
@@ -118,7 +115,7 @@
       &__services-list {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        size: 0.875rem;
+        font-size: 0.875rem;
         line-height: 50px;
         text-align: center;
         list-style-image: url("../images/Checkbox.png");
@@ -190,7 +187,7 @@
       &__services-list {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
-        size: 0.875rem;
+        font-size: 0.875rem;
         line-height: 50px;
         text-align: center;
         list-style-image: url("../images/Checkbox.png");

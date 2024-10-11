@@ -4,8 +4,7 @@
   padding-inline: 8vw;
 
   &__card {
-    text-align: center;
-    display: inline-block;
+    
     min-width: 360px;
     margin-bottom: 10%;
     background-color: white;
@@ -13,8 +12,6 @@
     &--be-always-first {
       height: 30rem;
       &__image-container {
-        position: relative;
-        display: block;
         text-align: center;
         &__image {
           position: relative;
@@ -39,7 +36,6 @@
         position: relative;
         top: 20%;
         margin: 0 auto;
-        text-align: start;
         font-family: Raleway, sans-serif;
         font-size: 2em;
         font-weight: 400;
@@ -64,8 +60,6 @@
     &--your-shop {
       height: 30rem;
       &__image-container {
-        position: relative;
-        display: block;
         text-align: center;
         &__image {
           width: 180px;
@@ -80,7 +74,6 @@
         }
       }
       &__title {
-        margin: 0;
         text-align: start;
         font-family: Raleway, sans-serif;
         font-size: 2em;
@@ -102,6 +95,7 @@
     }
 
     &--increase-recognition {
+      display: inline-block;
       text-align: center;
       &__text-container {
         &__title {
@@ -126,7 +120,6 @@
         }
       }
       &__green-background {
-        width: 100%;
         background-color: #55dfb4;
         border-radius: 5px;
       }
@@ -214,10 +207,8 @@
         display: inline-block;
 
         &__image-container {
-          width: fit-content;
           position: relative;
           right: 30%;
-          display: inline-block;
           &__image {
             position: absolute;
             top: 25px;
