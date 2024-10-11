@@ -11,13 +11,11 @@
   width: 7.5rem;
   margin: 0 auto;
   text-align: center;
-  display: block;
 }
 .statistics-container__statistics--entries__ellipse {
   position: absolute;
   margin-left: 25%;
   left: 0;
-  right: 0;
 }
 .statistics-container__statistics--entries__icon {
   position: relative;
@@ -41,7 +39,6 @@
   position: absolute;
   margin-left: 25%;
   left: 0;
-  right: 0;
 }
 .statistics-container__statistics--products__icon {
   position: relative;
@@ -65,7 +62,6 @@
   position: absolute;
   margin-left: 25%;
   left: 0;
-  right: 0;
 }
 .statistics-container__statistics--posts__icon {
   position: relative;

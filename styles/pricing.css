@@ -20,11 +20,9 @@
   text-wrap: nowrap;
 }
 .pricing-container__basic__text-content__left-div {
-  display: block;
   padding-top: 3rem;
 }
 .pricing-container__basic__text-content__left-div__title {
-  display: flex;
   font-family: Raleway, sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
@@ -32,7 +30,6 @@
   color: #13253b;
 }
 .pricing-container__basic__text-content__left-div__price {
-  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 2.875rem;
   font-weight: 300;
@@ -43,7 +40,7 @@
 .pricing-container__basic__text-content__services-list {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  size: 0.875rem;
+  font-size: 0.875rem;
   line-height: 50px;
   text-align: center;
   list-style-image: url("../images/Checkbox.png");
@@ -108,7 +105,7 @@
 .pricing-container__professional__text-content__services-list {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  size: 0.875rem;
+  font-size: 0.875rem;
   line-height: 50px;
   text-align: center;
   list-style-image: url("../images/Checkbox.png");
@@ -173,7 +170,7 @@
 .pricing-container__premium__text-content__services-list {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  size: 0.875rem;
+  font-size: 0.875rem;
   line-height: 50px;
   text-align: center;
   list-style-image: url("../images/Checkbox.png");
