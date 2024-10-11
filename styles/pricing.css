@@ -67,7 +67,6 @@
   transition: 1s;
 }
 .pricing-container__professional__text-content {
-  display: flex;
   justify-content: space-around;
   margin-left: 8%;
   margin-right: 8%;
@@ -132,7 +131,6 @@
   transition: 1s;
 }
 .pricing-container__premium__text-content {
-  display: flex;
   justify-content: space-around;
   margin-left: 8%;
   margin-right: 8%;
