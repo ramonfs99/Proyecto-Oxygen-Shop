@@ -74,7 +74,6 @@
   border-radius: 18px;
 }
 .pricing-container__professional__text-content__left-div {
-  display: block;
   padding-top: 3rem;
 }
 .pricing-container__professional__text-content__left-div__title {
@@ -86,7 +85,6 @@
   color: #13253b;
 }
 .pricing-container__professional__text-content__left-div__price {
-  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 2.875rem;
   font-weight: 300;
@@ -138,7 +136,6 @@
   border-radius: 18px;
 }
 .pricing-container__premium__text-content__left-div {
-  display: block;
   padding-top: 3rem;
 }
 .pricing-container__premium__text-content__left-div__title {
@@ -150,7 +147,6 @@
   color: #13253b;
 }
 .pricing-container__premium__text-content__left-div__price {
-  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 2.875rem;
   font-weight: 300;

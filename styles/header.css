@@ -17,6 +17,23 @@
   visibility: hidden;
   list-style: none;
 }
+.header__nav__element-list__list-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.205rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.header__nav__element-list__list-item a {
+  color: inherit;
+  padding-bottom: 1.35rem;
+  text-decoration: none;
+}
+.header__nav__element-list a:hover {
+  border-bottom: 4px solid #08a6e4;
+}
 .header__nav__hamburger-menu-container__hamburger-menu {
   position: absolute;
   top: 1.875rem;
