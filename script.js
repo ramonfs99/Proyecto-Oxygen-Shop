@@ -12,3 +12,18 @@ hamburger.addEventListener('click', () => {
         nav.style.height = '4.375rem'
     }
 });
+
+const progressBar = document.getElementById('progress-bar');
+
+function updateProgressBar() {
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+    if (scrollableHeight <= 0) {
+        progressBar.style.width = '100%';
+        return;
+      }
+
+    const scrolledPercentage = (window.scrollY / scrollableHeight) * 100;
+    progressBar.style.width = scrolledPercentage + '%';
+  }
+  window.addEventListener('scroll', updateProgressBar);

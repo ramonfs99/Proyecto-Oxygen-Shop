@@ -1,3 +1,12 @@
+.header__progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #08a6e4;
+  width: 0%;
+  z-index: 9999;
+}
 .header__nav {
   width: 100vw;
   height: 4.375rem;
