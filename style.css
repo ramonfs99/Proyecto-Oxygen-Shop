@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/statistics.css");
+@import url("styles/features.css");
+@import url("styles/pricing.css");
+@import url("styles/contact.css");
+@import url("styles/footer.css");
+@import url("styles/return-button.css");
+@import url("styles/slider.css");
+@import url("styles/modal.css");
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+

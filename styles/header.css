@@ -1,0 +1,182 @@
+.header__progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 0.3125rem;
+  background-color: #08a6e4;
+  width: 0%;
+  z-index: 1;
+}
+.header__nav {
+  width: 100vw;
+  height: 4.375rem;
+  display: inline-block;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+}
+.header__nav__logo {
+  margin-left: 25px;
+  margin-top: 17px;
+  font-family: Raleway, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 37px;
+  color: #08a6e4;
+}
+.header__nav__element-list {
+  visibility: hidden;
+  list-style: none;
+}
+.header__nav__element-list__list-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.205rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.header__nav__element-list__list-item a {
+  color: inherit;
+  padding-bottom: 1.35rem;
+  text-decoration: none;
+}
+.header__nav__element-list a:hover {
+  border-bottom: 4px solid #08a6e4;
+}
+.header__nav__hamburger-menu-container__hamburger-menu {
+  position: absolute;
+  top: 1.875rem;
+  right: 5%;
+}
+.header__jumbotron {
+  text-align: center;
+}
+.header__jumbotron__title {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 2.18rem;
+}
+.header__jumbotron__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.header__jumbotron___btn--open-your-shop {
+  padding: 3vh 25vw;
+  border-radius: 40px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #08a6e4;
+  filter: drop-shadow(5px 10px 14px rgba(7, 172, 230, 0.29));
+}
+.header__jumbotron__image-container--mobile {
+  visibility: visible;
+  margin-top: 20%;
+}
+.header__jumbotron__image-container--mobile__image {
+  width: 100%;
+}
+.header__jumbotron__image-container--desktop {
+  height: 0;
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header__nav {
+    width: 100vw;
+    height: 4.375rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+  }
+  .header__nav__logo {
+    margin-left: 8.5rem;
+    margin-top: 1.0625rem;
+    font-family: Raleway, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 37px;
+    color: #08a6e4;
+  }
+  .header__nav__element-list {
+    visibility: visible;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 0.75rem;
+    margin-right: 3rem;
+  }
+  .header__nav__element-list__list-item {
+    padding-inline: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.205rem;
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+  }
+  .header__nav__element-list__list-item a {
+    color: inherit;
+    padding-bottom: 1.35rem;
+    text-decoration: none;
+  }
+  .header__nav__element-list a:hover {
+    border-bottom: 4px solid #08a6e4;
+  }
+  .header__nav__hamburger-menu-container__hamburger-menu {
+    visibility: hidden;
+  }
+  .header__jumbotron {
+    margin-top: 10rem;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .header__jumbotron__title {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 3.0625rem;
+    line-height: 3.5625rem;
+    text-align: center;
+  }
+  .header__jumbotron__subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-align: center;
+  }
+  .header__jumbotron___btn--open-your-shop {
+    margin-top: 1rem;
+    padding: 2rem 10vw;
+    border-radius: 40px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #08a6e4;
+    filter: drop-shadow(5px 10px 14px rgba(7, 172, 230, 0.29));
+    text-wrap: nowrap;
+  }
+  .header__jumbotron__image-container--mobile {
+    height: 0;
+    visibility: hidden;
+    margin-top: 0;
+    width: 100vw;
+  }
+  .header__jumbotron__image-container--mobile__image {
+    width: 100%;
+  }
+  .header__jumbotron__image-container--desktop {
+    height: 100%;
+    visibility: visible;
+    width: 100vw;
+  }
+  .header__jumbotron__image-container--desktop__image {
+    width: 100%;
+  }
+}/*# sourceMappingURL=header.css.map */

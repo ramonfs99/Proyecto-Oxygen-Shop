@@ -1,0 +1,173 @@
+.contact-container {
+  padding-inline: 10%;
+  padding-bottom: 10%;
+}
+.contact-container__info__title {
+  font-family: Raleway, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 46.96px;
+  margin-bottom: 0;
+}
+.contact-container__info__subtitle {
+  margin-top: 0;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+}
+.contact-container__info__details {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #a5a5a5;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0;
+}
+.contact-container__info__details--email, .contact-container__info__details--phone {
+  display: block;
+  line-height: 22px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: left center;
+}
+.contact-container__info__details--email a, .contact-container__info__details--phone a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.contact-container__info__details--email {
+  background-image: url("../images/Email.png");
+  margin-bottom: 4%;
+}
+.contact-container__info__details--phone {
+  background-image: url("../images/Phone.png");
+}
+.contact-container__form__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 14.98px;
+  letter-spacing: 3.28px;
+  color: #08a6e4;
+}
+.contact-container__form__label--disclaimer {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 16.34px;
+  letter-spacing: 0;
+  color: #707070;
+}
+.contact-container__form__label__text-input {
+  margin-top: 8%;
+  border-width: 0 0 1px 0;
+  border-color: #95989a;
+  width: 100%;
+  margin-bottom: 10%;
+}
+.contact-container__form__send-button {
+  margin-top: 10%;
+  margin-left: 40%;
+  padding: 1.2rem 6rem;
+  border-radius: 35px;
+  border: none;
+  background-color: #08a6e4;
+  color: white;
+  box-shadow: 5px 10px 14px rgba(8, 166, 228, 0.29);
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact-container {
+    margin-top: 10%;
+    text-align: center;
+  }
+  .contact-container__info {
+    text-align: start;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+  }
+  .contact-container__info__title {
+    font-family: Raleway, sans-serif;
+    font-size: 3.0625rem;
+    font-weight: 400;
+    line-height: 46.96px;
+    margin-bottom: 5%;
+  }
+  .contact-container__info__subtitle {
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .contact-container__info__details {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #a5a5a5;
+    padding: 0;
+  }
+  .contact-container__info__details--email, .contact-container__info__details--phone {
+    display: inline-block;
+    line-height: 22px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left center;
+  }
+  .contact-container__info__details--email a, .contact-container__info__details--phone a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+  .contact-container__info__details--email {
+    background-image: url("../images/Email.png");
+  }
+  .contact-container__info__details--phone {
+    margin-left: 15%;
+    background-image: url("../images/Phone.png");
+  }
+  .contact-container__form {
+    display: inline-block;
+    width: 40%;
+    text-align: start;
+  }
+  .contact-container__form__label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 14.98px;
+    letter-spacing: 3.28px;
+    color: #08a6e4;
+  }
+  .contact-container__form__label--disclaimer {
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 16.34px;
+    letter-spacing: 0;
+    color: #707070;
+  }
+  .contact-container__form__label__text-input {
+    margin-top: 8%;
+    border-width: 0 0 1px 0;
+    border-color: #95989a;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .contact-container__form__send-button {
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 1.2rem 6rem;
+    border-radius: 35px;
+    border: none;
+    background-color: #08a6e4;
+    color: white;
+    box-shadow: 5px 10px 14px rgba(8, 166, 228, 0.29);
+  }
+}/*# sourceMappingURL=contact.css.map */

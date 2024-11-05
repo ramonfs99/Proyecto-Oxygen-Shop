@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OxygenShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/progress-bar.js" defer></script>
+    <script src="scripts/to-top-button.js" defer></script>
+    <script src="scripts/currency-converter.js" defer></script>
+    <script src="scripts/slider.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
+</head>
+
+<body>
+    <div class="header__progress-bar" id="progress-bar"></div>
+    <button class="scrollToTopBtn" id="scrollToTopBtn">&#11105;</button>
+    <div class="modal" id="modal">
+        <form class="modal__form" action="/">
+            <h1 class="modal__form__title">Subscribe to our newsletter!</h1>
+            <button class="modal__form__btn-close">X</button>
+            <p class="modal__form__email">EMAIL</p>
+
+            <input class="modal__form__input" type="email" id="email__modal" name="email" />
+            <div class="error"></div>
+            <button type="submit" class="modal__form__submit">Submit</button>
+        </form>
+    </div>
+
+    <header class="header">
+        <nav class="header__nav" id="nav">
+            <p class="header__nav__logo">OXYGEN Shop</p>
+            <ul class="header__nav__element-list" id="nav-list">
+                <li class="header__nav__element-list__list-item"><a href="">Why us</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Benefits</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Prices</a></li>
+                <li class="header__nav__element-list__list-item"><a href="">Contact</a></li>
+            </ul>
+            <div class="header__nav__hamburger-menu-container">
+                <img class="header__nav__hamburger-menu-container__hamburger-menu" id="hamburger" src="images/Menu.png"
+                    aria-hidden="true" />
+            </div>
+        </nav>
+        <div class="header__jumbotron">
+            <h2 class="header__jumbotron__title">Sell More!</h2>
+            <h3 class="header__jumbotron__subtitle">Open shop on our platform and increase your sales</h3>
+            <button class="header__jumbotron___btn--open-your-shop">Open your shop</button>
+        </div>
+        <div class="header__jumbotron__image-container header__jumbotron__image-container--mobile">
+            <img class="header__jumbotron__image-container--mobile__image" src="images/Background 1.png" alt="laptop">
+        </div>
+        <div class="header__jumbotron__image-container header__jumbotron__image-container--desktop">
+            <img class="header__jumbotron__image-container--desktop__image" src="images/Background.png" alt="laptop">
+        </div>
+    </header>
+    <section class="statistics-container">
+        <h2 class="statistics-container__title">The most popular sales platform in the country</h2>
+        <article class="statistics-container__statistics statistics-container__statistics--entries">
+            <img class="statistics-container__statistics--entries__ellipse" src="images/Ellipse-red.png" alt="">
+            <img class="statistics-container__statistics--entries__icon" src="images/Person.png" alt="">
+            <h4 class="statistics-container__statistics--entries__amount">100000+</h4>
+            <p class="statistics-container__statistics--entries__topic">daily entries</p>
+        </article>
+        <article class="statistics-container__statistics statistics-container__statistics--products">
+            <img class="statistics-container__statistics--products__ellipse" src="images/Ellipse-blue.png" alt="">
+            <img class="statistics-container__statistics--products__icon" src="images/Eye.png" alt="">
+            <h4 class="statistics-container__statistics--products__amount">2000000+</h4>
+            <p class="statistics-container__statistics--products__topic">seen products every day</p>
+        </article>
+        <article class="statistics-container__statistics statistics-container__statistics--posts">
+            <img class="statistics-container__statistics--posts__ellipse" src="images/Ellipse-green.png" alt="">
+            <img class="statistics-container__statistics--posts__icon" src="images/Catalog.png" alt="">
+            <h4 class="statistics-container__statistics--posts__amount">10000+</h4>
+            <p class="statistics-container__statistics--posts__topic">added posts daily</p>
+        </article>
+    </section>
+    </section>
+    <section class="features-container">
+        <article class="features-container__card features-container__card--be-always-first">
+            <div class="features-container__card--be-always-first__image-container">
+                <img class="features-container__card--be-always-first__image-container__red-rectangle features-container__card--be-always-first__image-container__red-rectangle--mobile"
+                    src="images/Rectangle-red.png" alt="">
+                <img class="features-container__card--be-always-first__image-container__red-rectangle features-container__card--be-always-first__image-container__red-rectangle--desktop"
+                    src="images/Rectangle-red1.png" alt="">
+                <img class="features-container__card--be-always-first__image-container__image" src="images/Macbook.png"
+                    alt="">
+            </div>
+            <h2 class="features-container__card--be-always-first__title">Be always first</h2>
+            <p class="features-container__card--be-always-first__content-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam.</p>
+        </article>
+        <article class="features-container__card features-container__card--your-shop">
+            <div class="features-container__card--your-shop__image-container">
+                <img class="features-container__card--your-shop__image-container__blue-ellipse"
+                    src="images/Ellipse-blue2.png" alt="">
+                <img class="features-container__card--your-shop__image-container__image" src="images/iPhone.png" alt="">
+            </div>
+            <h2 class="features-container__card--your-shop__title">Your shop is where you are!</h2>
+            <p class="features-container__card--your-shop__content-text">Lorem ipsum dolor, sit amet consectetur
+                adipisicing
+                elit. Nostrum, amet beatae! Ipsum nisi, inventore sint non quis sequi consequatur dicta.</p>
+        </article>
+        <article class="features-container__card features-container__card--increase-recognition">
+            <div class="features-container__card--increase-recognition__text-container">
+                <h2 class="features-container__card--increase-recognition__text-container__title">Increase the
+                    recognition of your
+                    brand!</h2>
+                <p class="features-container__card--increase-recognition__text-container__content-text">Lorem ipsum
+                    dolor, sit amet
+                    consectetur adipisicing
+                    elit.
+                    Nostrum, amet beatae! Ipsum nisi, inventore sint non quis sequi consequatur dicta.
+                </p>
+            </div>
+            <div class="features-container__card--increase-recognition__green-background">
+                <img class="features-container__card--increase-recognition__image" src="images/Trumpet.png" alt="">
+            </div>
+        </article>
+    </section>
+    <section class="pricing-container">
+        <h2 class="pricing-container__title">Pricing</h2>
+
+        <div id="units" class="converter">
+            <p class="converter__currency" id="converter__eur">EUR</p>
+            <p class="converter__currency" id="converter__usd">USD</p>
+            <p class="converter__currency" id="converter__gbd">GBP</p>
+        </div>
+
+        <article class="pricing-container__basic">
+            <div class="pricing-container__basic__text-content">
+                <div class="pricing-container__basic__text-content__left-div">
+                    <h4 class="pricing-container__basic__text-content__left-div__title">Basic</h4>
+                    <h3 class="pricing-container__basic__text-content__left-div__price" id="price-basic">$0</h3>
+                </div>
+                <ul class="pricing-container__basic__text-content__services-list">
+                    <li>100 MB HDD</li>
+                    <li>1 Subdomain</li>
+                    <li>2 E-mails</li>
+                    <li class="pricing-container__basic__text-content__services-list--cross">Two years license</li>
+                    <li class="pricing-container__basic__text-content__services-list--cross">Full support</li>
+                </ul>
+            </div>
+            <button class="pricing-container__basic__begin-button">Begin</button>
+        </article>
+        <article class="pricing-container__professional">
+            <div class="pricing-container__professional__text-content">
+                <div class="pricing-container__professional__text-content__left-div">
+                    <h4 class="pricing-container__professional__text-content__left-div__title">Professional</h4>
+                    <h3 class="pricing-container__professional__text-content__left-div__price" id="price-professional">
+                        $25</h3>
+                    <h5 class="pricing-container__professional__text-content__left-div__offer">Limited offer</h5>
+                </div>
+                <ul class="pricing-container__professional__text-content__services-list">
+                    <li>500 MB HDD</li>
+                    <li>2 Subdomains</li>
+                    <li>5 E-mails</li>
+                    <li>One year license</li>
+                    <li class="pricing-container__professional__text-content__services-list--cross">Full support</li>
+                </ul>
+            </div>
+            <button class="pricing-container__professional__begin-button">Begin</button>
+        </article>
+        <article class="pricing-container__premium">
+            <div class="pricing-container__premium__text-content">
+                <div class="pricing-container__premium__text-content__left-div">
+                    <h4 class="pricing-container__premium__text-content__left-div__title">Premium</h4>
+                    <h3 class="pricing-container__premium__text-content__left-div__price" id="price-premium">$60</h3>
+                    <h5 class="pricing-container__premium__text-content__left-div__offer">Limited offer</h5>
+                </div>
+                <ul class="pricing-container__premium__text-content__services-list">
+                    <li>2 GB HDD</li>
+                    <li>5 Subdomains</li>
+                    <li>20 E-mails</li>
+                    <li>Two years license</li>
+                    <li>Full support</li>
+                </ul>
+            </div>
+            <button class="pricing-container__premium__begin-button">Begin</button>
+        </article>
+    </section>
+    <div class="slider" id="slider">
+        <img class="slider__img" alt="img1" src="images/dollar.jpg" />
+        <img class="slider__img" alt="img2" src="images/coffee.jpg" />
+        <img class="slider__img" alt="img3" src="images/galaxy.jpg" />
+        <img class="slider__img" alt="img4" src="images/sunflower.jpg" />
+    </div>
+    <section class="contact-container">
+        <div class="contact-container__info">
+            <h2 class="contact-container__info__title">Any questions?</h2>
+            <h3 class="contact-container__info__subtitle">Leave your email adress or call us!</h3>
+            <ul class="contact-container__info__details">
+                <li class="contact-container__info__details--email"><a href="">info@bestshop.xyz</a></li>
+                <li class="contact-container__info__details--phone"><a href="">123 456 789</a></li>
+            </ul>
+        </div>
+        <form class="contact-container__form" id="contact-form">
+            <label class="contact-container__form__label contact-container__form__label--name">
+                Name
+                <br>
+                <input type="text" class="contact-container__form__label__text-input">
+            </label>
+            <br>
+            <label class="contact-container__form__label contact-container__form__label--email">
+                Email
+                <br>
+                <input type="email" class="contact-container__form__label__text-input">
+                <br>
+            </label>
+            <label class="contact-container__form__label contact-container__form__label--disclaimer">
+                <input type="checkbox" class="checkbox">I hereby give consent for my personal data included in my
+                application to be processed for the purposes of the recruitment process under the European Parliament’s
+                and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016,
+                with regard to the processing of personal data and on the free movement of such data, and repealing
+                Directive 95/46/EC (Data Protection Directive)
+            </label><br>
+            <button class="contact-container__form__send-button">Send</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <p class="footer__top__logo">OXYGEN Shop</p>
+            <div class="footer__top__socials">
+                <img src="images/Twitter.png" alt="Twitter">
+                <img src="images/Facebook.png" alt="Facebook">
+            </div>
+        </div>
+        <h4 class="footer__copyright">© 2022 OXYGEN, All Rights Reserved</h4>
+    </footer>
+
+</body>
+
+</html>
